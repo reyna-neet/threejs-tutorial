@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/reyna-neet/threejs-tutorial#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "three": "^0.127.0"
   }
 }
