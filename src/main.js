@@ -6,7 +6,7 @@ import {
   PerspectiveCamera,
   Scene,
   WebGLRenderer,
-} from 'three';
+} from 'https://unpkg.com/three@0.117.0/build/three.module.js';
 
 // Get a reference to the container element that will hold our scene
 const container = document.querySelector('#scene-container');
