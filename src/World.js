@@ -1,6 +1,7 @@
 import { createCamera } from './components/camera.js';
 import { createCube } from './components/cube.js';
 import { createIcosahedron } from './components/icosahedron.js';
+import { createLights } from './components/lights.js';
 import { createScene } from './components/scene.js';
 
 import { createRenderer } from './systems/renderer.js';
@@ -20,9 +21,11 @@ class World{
 
     const icosahedron = createIcosahedron();
     const cube = createCube();
+    const light = createLights();
     
     scene.add(icosahedron);
     scene.add(cube);
+    scene.add(cube, light);
 
     cube.translateX(3);
 
