@@ -2,7 +2,7 @@ import { DirectionalLight } from 'https://unpkg.com/three@0.127.0/build/three.mo
 
 function createLights() {
   const light = new DirectionalLight('skyblue', 8);
-  light.position.set(10, 10, 10); //meters
+  light.position.set(-15, 25, 0); //meters
 
   return light;
 }
