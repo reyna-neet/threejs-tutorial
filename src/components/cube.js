@@ -3,7 +3,7 @@ import { BoxBufferGeometry, Mesh, MeshStandardMaterial } from 'https://unpkg.com
 function createCube() {
   // create a cube Geometry, a default white Basic Material, and combine into a Mesh
   const spec = {
-    color: 'purple',
+    color: 'papayawhip',
   }
   const geometry = new BoxBufferGeometry(2, 2, 2); //units are in meters
   const material = new MeshStandardMaterial(spec);
