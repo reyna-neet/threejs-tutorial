@@ -19,8 +19,12 @@ class World{
     container.append(renderer.domElement);
 
     const icosahedron = createIcosahedron();
+    const cube = createCube();
     
     scene.add(icosahedron);
+    scene.add(cube);
+
+    cube.translateX(3);
 
     const resizer = new Resizer(container, camera, renderer);
   }
